@@ -67,7 +67,7 @@ async function sendEmail(formData, file) {
     transporter
       .sendMail({
         from: "yilmaz.u.237@gmail.com",
-        to: "alibilir601@gmail.com",
+        to: "aslounvr@gmail.com",
         subject: "Itech robotik iş başvurusu ✔",
         html: htmlContent,
         attachments: [attachment],
