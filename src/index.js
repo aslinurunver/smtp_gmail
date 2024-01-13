@@ -46,8 +46,8 @@ async function sendEmail(formData, file) {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "yilmaz.u.237@gmail.com",
-      pass: "yvoc nvjw pwlz iter",
+      user: "itechroboticssoftware@gmail.com",
+      pass: "iosi dxho dyek lrul",
     },
   });
 
@@ -66,9 +66,9 @@ async function sendEmail(formData, file) {
 
     transporter
       .sendMail({
-        from: "yilmaz.u.237@gmail.com",
-        to: "aslounvr@gmail.com",
-        subject: "Itech robotik iş başvurusu ✔",
+        from: "itechroboticssoftware@gmail.com",
+        to: "info@itechrobotics.com",
+        subject: "Itech robotik İletişim Mesajı ✔",
         html: htmlContent,
         attachments: [attachment],
       })
