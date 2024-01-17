@@ -54,8 +54,10 @@ async function sendEmail(formData, file) {
   let htmlContent = `
         <p><strong>İsim:</strong> ${formData.name}</p>
         <p><strong>Email:</strong> ${formData.email}</p>
+        <p><strong>Telefon:</strong> ${formData.tel}</p>
         <p><strong>Pozisyon:</strong> ${formData.position}</p>
         <p><strong>Açıklama:</strong> ${formData.description}</p>
+        
     `;
 
   if (file) {
