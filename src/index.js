@@ -34,7 +34,7 @@ app.post("/sendEmail", upload.single("file"), async (req, res) => {
     res.status(500).send("Dosya yükleme hatası");
   }
 });
-
+//
 app.listen(5000, () => {
   console.log("App is listening on port 5000");
 });
